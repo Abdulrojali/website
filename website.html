@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid"id='home'>
+        <div class="navigasi container-fluid d-flex justify-content-around align-items-center pt-2">
+            <div class="navlinks">
+                <ul class="row list-unstyled">
+                    <li><a class="col-3" href="#home">home</a></li>
+                    <li><a class="col-3" href="#about">about</a></li>
+                    <li><a class="col-3" href="#project">project</a></li>
+                    <li><a class="col-3" href="#skill">skill</a></li>
+                    <li><a class="col-3" href="#contact">contact</a></li>
+                    <li><a class="col-3" href="#footer">footer</a></li>
+
+                </ul>
+            </div>
+            <div class="navicon">
+                <ul class="row list-unstyled">
+                    <li class="col-6"><i class="fa-solid fa-user" style="cursor: pointer;"></i></li>
+                    <li class="col-6"><i class="fa-solid fa-bars" style="cursor: pointer;"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="personal container pt-3 pb-3 "id='about'>
+            <div class="row text-start d-flex justify-content-around align-items-center">
+                <div class=" col-sm-6 col-12 text-center">
+                    <h3 class="h1">selamat datang di wesbite saya</h3>
+                    <h4 class="h4">frontend developer</h4>
+                    <p class="h6">perkenalkan nama saya <i>[nama anda]</i> berusia [usia anda] tahun sedang menjalankan perkuliahan di universitas nusa putra, memiliki ketertarikan di bidang pemrograman website</p>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <img src="profil.jpg" alt="" class="card-img w-10 h-10">
+                </div>
+            </div>
+        </div>
+        <div class="project container mt-5"  id="project">
+            <h3 class="h3 text-center">my project</h3>
+            <div class="row g-3 mt-3">
+                <div class="col-sm-3 col-12 card p-2 ">
+                    <img src="profil.jpg" alt="" class="card-img-top d-inline-block w-5 h-sm-5 h-10" style="width: 100%;height: 80px;">
+                    <h3 class="h5 fw-bold">website portfolio</h3>
+                    <p class="lh-sm">ini adalah website protfolio menggunakan html css javascript</p>
+                </div>
+                <div class="col-sm-3 col-12 card p-2">
+                    <img src="profil.jpg" alt=""class="card-img-top d-inline-block w-5 h-sm-5 h-10" style="width: 100%;height: 80px;">
+                    <h3 class="h5 fw-bold">website company profil</h3>
+                    <p>ini adalah webiste company profile menggunakan html css boostrap jquery</p>
+                </div>
+                <div class="col-sm-3 col-12  card p-2">
+                    <img src="profil.jpg" alt="" class="card-img-top d-inline-block w-5 h-sm-5 h-10" style="width: 100%;height: 80px;">
+                    <h3 class="h5 fw-bold">webiste marketplace</h3>
+                    <p>ini adalah wesbite marketplace menggunakan react talwind firebase mongdb</p>
+                </div>
+                <div class="col-sm-3 col-12 card p-2">
+                    <img src="profil.jpg" alt="" class="card-img-top d-inline-block w-5 h-sm-5 h-10" style="width: 100%;height: 80px;">
+                    <h3 class="h5 fw-bold">webiste blog</h3>
+                    <p>ini adalah wesbite blog menggunakan vuejs sass nodejs mongdb</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill container mt-5 mb-2" id="skill">
+            <h3 class="h3 text-center">my <span class="color-danger">skill</span></h3>
+            <div class="row mt-4">
+                <div class="col-3 d-flex justify-content-center align-items-center text-center">
+                    <i class="fa-brands fa-html5 h1" ></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center">
+                    <i class="fa-brands fa-css3 h2"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center">
+                    <i class="fa-brands fa-js h1"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center">
+                    <i class="fa-brands fa-github h1"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center mt-5">
+                    <i class="fa-brands fa-bootstrap h1"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center mt-5">
+                    <i class="fa-brands fa-sass h1"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center mt-5">
+                    <i class="fa-brands fa-react h1"></i>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center text-center mt-5">
+                    <i class="fa-brands fa-vuejs h1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="contact container mt-5 mb-2" id="contact">
+            <h3 class="h2 text-center">contact</h3>
+            <form action="" class="mt-2">
+                <div class="mb-3">
+                    <label for="username" class="form-label">username</label>
+                    <input type="text" class="form-control" id="username" placeholder="username">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="password">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="massage" class="form-label">massage for me</label>
+                    <textarea class="form-control" id="massage" rows="10"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button class="btn btn-primary submit">submit</button>
+                  </div>
+            </form>
+        </div>
+        <div class="footer container mt-4"id="footer">
+            <h3 class="h2 text-center">footer</h3>
+            <div class="row d-flex justify-content-center align-items-center mt-4">
+                <div class="col-6 text-center">
+                    <ul class="list-unstyled">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="#skill">skill</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 text-center">
+                    <h1 class="h2 mb-2">website project</h1>
+                    <b class="mb-2">copyright by @yourname.com</b>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, exercitationem!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let contact=document.querySelector('.contact form')
+        contact.addEventListener('click',function(event){
+            event.preventDefault()
+        })
+        function getFormValidation(username,massage,password){
+            if(username==''||massage==''||password==''){
+                alert('failed')
+            }
+            else{
+                alert('sukses')
+            }
+        }
+        document.querySelector('.submit').addEventListener('click',function(){
+        let username=document.querySelector('#username').value
+        let massage=document.querySelector('#massage').value
+        let password=document.querySelector('#password'),value
+            getFormValidation(username,massage,password)
+        })
+
+        let a=document.querySelectorAll('a')
+        a.forEach(aTag=>{
+            aTag.addEventListener('click',function(eventA){
+                eventA.preventDefault()
+            })
+        })
+    </script>
+</body>
+</html>
